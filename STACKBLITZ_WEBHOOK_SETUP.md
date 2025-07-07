@@ -4,17 +4,17 @@
 
 **Your StackBlitz App URL**: 
 ```
-https://sb1cxzqd9ek-i0px--5173--96435430.local-credentialless.webcontainer.io
+https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3-v76qmf54--5173--96435430.local-credentialless.webcontainer-api.io
 ```
 
 **Webhook URL for WhatsApp**: 
 ```
-https://sb1cxzqd9ek-i0px--5173--96435430.local-credentialless.webcontainer.io/api/webhook
+https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3-v76qmf54--5173--96435430.local-credentialless.webcontainer-api.io/api/webhook/whatsapp
 ```
 
 **Verify Token**: 
 ```
-9e04afae-6b6b-4aa4-a334-3acc20c48779
+74b5c63b-81c9-40a0-a464-5d54922a2501
 ```
 
 ## 🔧 Configure WhatsApp Business API
@@ -27,12 +27,12 @@ https://sb1cxzqd9ek-i0px--5173--96435430.local-credentialless.webcontainer.io/ap
 ### Step 2: Set Webhook
 1. **Callback URL**: 
    ```
-   https://sb1cxzqd9ek-i0px--5173--96435430.local-credentialless.webcontainer.io/api/webhook
+   https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3-v76qmf54--5173--96435430.local-credentialless.webcontainer-api.io/api/webhook/whatsapp
    ```
 
 2. **Verify Token**: 
    ```
-   9e04afae-6b6b-4aa4-a334-3acc20c48779
+   74b5c63b-81c9-40a0-a464-5d54922a2501
    ```
 
 3. **Webhook Fields**: Check `messages`
@@ -40,7 +40,7 @@ https://sb1cxzqd9ek-i0px--5173--96435430.local-credentialless.webcontainer.io/ap
 4. Click **"Verify and Save"**
 
 ### Step 3: Test Your Setup
-1. Go to your StackBlitz app: [Open App](https://sb1cxzqd9ek-i0px--5173--96435430.local-credentialless.webcontainer.io)
+1. Go to your StackBlitz app: [Open App](https://zp1v56uxy8rdx5ypatb0ockcb9tr6a-oci3-v76qmf54--5173--96435430.local-credentialless.webcontainer-api.io)
 2. Navigate to **Inbox** tab
 3. Click **"Test"** button
 4. Send a real message to your WhatsApp Business number

@@ -9,7 +9,7 @@ const WebhookStatus: React.FC = () => {
   useEffect(() => {
     // Get current StackBlitz URL
     const currentUrl = window.location.origin;
-    const fullWebhookUrl = `${currentUrl}/api/webhook`;
+    const fullWebhookUrl = `${currentUrl}/api/webhook/whatsapp`;
     setWebhookUrl(fullWebhookUrl);
     
     // Check if webhook is accessible
