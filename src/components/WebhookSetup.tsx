@@ -8,6 +8,11 @@ const WebhookSetup: React.FC = () => {
   const [verifyToken, setVerifyToken] = useState('9820247-e6da-49fc-858e-b0584ecdf608');
   const [copied, setCopied] = useState(false);
 
+  const testWebhookUrl = () => {
+    const testUrl = `${webhookUrl}?hub.mode=subscribe&hub.verify_token=${verifyToken}&hub.challenge=test123`;
+    window.open(testUrl, '_blank');
+  };
+
   const handleCopyToken = () => {
     navigator.clipboard.writeText(verifyToken);
     setCopied(true);
@@ -85,6 +90,14 @@ const WebhookSetup: React.FC = () => {
                 className="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 Generate New
+              </button>
+            </div>
+            <div className="flex space-x-2 mt-2">
+              <button
+                onClick={testWebhookUrl}
+                className="px-3 py-1 bg-green-600 text-white rounded text-xs hover:bg-green-700"
+              >
+                Test Webhook URL
               </button>
             </div>
             <p className="text-xs text-gray-500 mt-1">
