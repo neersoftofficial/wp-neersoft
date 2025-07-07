@@ -5,7 +5,6 @@ import { APICredentials } from '../types';
 import AppCustomization from './AppCustomization';
 import ContactGroups from './ContactGroups';
 import WebhookSetup from './WebhookSetup';
-import WebhookStatus from './WebhookStatus';
 import WebhookTester from './WebhookTester';
 
 const SettingsTab: React.FC = () => {
@@ -172,7 +171,6 @@ const SettingsTab: React.FC = () => {
       case 'webhook':
         return (
           <div className="space-y-6">
-            <WebhookStatus />
             <WebhookSetup />
             <WebhookTester />
           </div>
